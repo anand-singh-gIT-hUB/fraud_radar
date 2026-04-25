@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.git/
+.env
+venv/
+.venv/
+notebooks/
+*.ipynb
+.gitignore
+docker-compose.yml
