@@ -207,7 +207,7 @@ st.markdown(
         <p style='margin:0.5rem 0 0 0; font-size:1rem; opacity:0.7;'>
             Hybrid Autoencoder + RandomForest · SHAP Explainability · 43-Feature Pipeline
         </p>
-        <div style='margin-top:0.8rem; display:flex; gap:1rem; flex-wrap:wrap;'>
+        <div style='margin-top:0.8rem; display:flex; gap:1rem; flex-wrap:wrap; align-items:center;'>
             <span style='background:rgba(99,102,241,0.1); padding:0.3rem 0.8rem; 
                          border-radius:20px; font-size:0.8rem; color:#6366f1;'>
                 🎯 F1-Score: 0.80
@@ -220,6 +220,12 @@ st.markdown(
                          border-radius:20px; font-size:0.8rem; color:#8b5cf6;'>
                 🔍 SHAP Enabled
             </span>
+            <a href='https://anand-singh-git-hub-fraud-radar-appmain-b2fgwv.streamlit.app/' 
+               target='_blank' 
+               style='background:rgba(255,165,0,0.1); padding:0.3rem 0.8rem; 
+                      border-radius:20px; font-size:0.8rem; color:#FFA500; text-decoration:none;'>
+                🌐 Live Demo
+            </a>
         </div>
     </div>
     """,

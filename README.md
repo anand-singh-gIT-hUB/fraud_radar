@@ -2,6 +2,12 @@
 
 A production-grade **hybrid fraud detection system** combining a deep learning Autoencoder with a RandomForest classifier, fully explainable via SHAP.
 
+## 🌐 Live Demo
+
+**Try it online:** [Fraud Radar on Streamlit Cloud](https://anand-singh-git-hub-fraud-radar-appmain-b2fgwv.streamlit.app/)
+
+No installation required! Test the app directly in your browser with sample datasets.
+
 ## Architecture
 
 ```
@@ -28,12 +34,16 @@ Raw Input (30 features: Time, V1–V28, Amount)
 
 ## Quick Start
 
+### Option 1: Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app/main.py
 ```
 
 Open [http://localhost:8501](http://localhost:8501)
+
+### Option 2: Use Online (Recommended)
+Visit the live demo: [https://anand-singh-git-hub-fraud-radar-appmain-b2fgwv.streamlit.app/](https://anand-singh-git-hub-fraud-radar-appmain-b2fgwv.streamlit.app/)
 
 ## Docker
 

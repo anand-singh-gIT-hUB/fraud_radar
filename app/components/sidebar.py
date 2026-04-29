@@ -46,3 +46,10 @@ def render_sidebar(threshold: float) -> None:
 
         st.divider()
         st.caption("Dataset: Kaggle Credit Card Fraud · 284,807 transactions · 0.17% fraud")
+        
+        st.divider()
+        st.markdown("##### 🌐 Live Demo")
+        st.markdown(
+            "[View on Streamlit Cloud](https://anand-singh-git-hub-fraud-radar-appmain-b2fgwv.streamlit.app/)"
+        )
+        st.caption("Share this link to let others try the app online")
